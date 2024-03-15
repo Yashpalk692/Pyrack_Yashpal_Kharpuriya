@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Profile</title>
+</head>
+<body>
+    <h1>{{ owner_profile.user.username }}'s Profile</h1>
+    <p>Company Name: {{ owner_profile.company_name }}</p>
+    <p>Email: {{ owner_profile.email }}</p>
+    <p>Phone Number: {{ owner_profile.phone_number }}</p>
+    <a href="{% url 'owner_dashboard' %}">Back to Dashboard</a>
+</body>
+</html>

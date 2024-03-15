@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ staff_profile.user.username }}</h1>
+    <p>Position: {{ staff_profile.position }}</p>
+    <p>Department: {{ staff_profile.department }}</p>
+    <a href="{% url 'staff_profile' %}">View Profile</a>
+</body>
+</html>
+

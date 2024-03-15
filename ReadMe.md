@@ -1,0 +1,3 @@
+cmds
+
+venv\Scripts\activate
